@@ -1,6 +1,7 @@
 Marking rubric:
 Documentation and comments in code: 20%
 Exercise 1: 60%
+
 Exercise 2: 20%
 
 Exercise 1:
