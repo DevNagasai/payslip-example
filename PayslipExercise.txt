@@ -1,11 +1,8 @@
 Marking rubric:
 Documentation and comments in code: 20%
 Exercise 1: 60%
-
 Exercise 2: 20%
-
-Exercise 1:
-
+Exercisse 1:
 Employees.txt contains one line for each employee with the following information, separated by tab characters (\t)
 <StaffID>\t<Surname>\t<First Name(s)>\t<PPSNumber>\t<standard hours>\t<HourlyRate>\t<OvertimeRate>\t<taxcredit>\t<standardband>
 
