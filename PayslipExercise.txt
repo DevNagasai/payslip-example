@@ -1,0 +1,49 @@
+Marking rubric:
+Documentation and comments in code: 20%
+Exercise 1: 60%
+Exercise 2: 20%
+
+Exercise 1:
+
+Employees.txt contains one line for each employee with the following information, separated by tab characters (\t)
+<StaffID>\t<Surname>\t<First Name(s)>\t<PPSNumber>\t<standard hours>\t<HourlyRate>\t<OvertimeRate>\t<taxcredit>\t<standardband>
+
+Hours.txt contains the following:
+<dd/mm/yyyy>\t<StaffID>\t<hours worked>
+
+Taxrates.txt contains the following information (%):
+<standardrate>\t<higherrate>
+
+Reading the files, create payslip for each employee for each date (one for each line in Hours.txt) in the following format:
+                          PAYSLIP
+StaffID: 123456
+Staff Name: John Doe
+PPSN: 1234567AF
+Date: 01/11/2020
+            Hours     Rate      Total
+Regular     37        20        740
+Overtime    10        30        300
+
+Gross Pay        1040    
+                      Rate      Total
+Standard Band     700    20%       140
+Higher Rate       340    40%       136
+
+Total Deductions  276
+Tax Credit		   70
+Net Deductions	  206
+Net Pay           834
+
+Exercise 2:
+Also output the weekly average gross pay for all workers, for each week where there are payslips issued, and the six-week rolling average gross pay for each employee with over six weeks' pay records, for their last six weeks.
+ 
+Regular hours cannot exceed hours worked or standard hours.
+Overtime is time worked exceeding standard hours.
+Pay taxed at standardrate cannot exceed gross pay or standard band.
+Pay in excess of standardband is subject to the higher rate.
+The tax credit reduces the tax payable.
+Tax payable cannot be less than zero
+
+
+
+
